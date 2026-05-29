@@ -1,6 +1,6 @@
 {
-  "name": "sfkazi_pair_bot md",
-  "description": "Javascript WhatsApp bot made by sfkazi_pair_bot",
+  "name": "sfkazipairbot-xmd",
+  "description": "Javascript WhatsApp bot made by sfkazipairbot-xmd",
   "logo": "https://i.postimg.cc/j2n3tM7R/IMG-20251125-003346-004.jpg",
   "keywords": ["sfkazi_pair_bot md"],
   "success_url": "/",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "sfkazi_pair_bot"
+      "value": "sfkazipairbot-xmd"
     }, 
       
     "PREFIX": {
@@ -78,14 +78,14 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY sfkazi_pair_bot 🖤*"
+      "value": "*SEEN YOUR STATUS BY sfkazipairbot-xmd 🖤*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "sfkazi_pair_bot"
+      "value": "sfkazipairbot-xmd"
 }, 
 
     "OWNER_NUMBER": {
@@ -98,7 +98,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "sfkazi_pair_bot"
+      "value": "sfkazipairbot-xmd"
 
       }, 
 
@@ -130,7 +130,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*sfkazi_pair_bot*"
+      "value": "*sfkazipairbot-xmd*"
     },
 
       "DELETE_LINKS": {
