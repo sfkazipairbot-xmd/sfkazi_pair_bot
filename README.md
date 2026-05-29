@@ -36,7 +36,7 @@
 <h1 align="center" style="color: #00FFFF; text-shadow: 0 0 15px #00FFFF;">🌌 ONE-CLICK DEPLOYMENT 🌌</h1>
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new-app?template=https://github.com/KAMRAN-SMD/KAMRAN-MD">
+  <a href="https://dashboard.heroku.com/new-app?template=https://github.com/sfkazipairbot-xmd/sfkazipairbot-xmd">
     <img src="https://img.shields.io/badge/DEPLOY%20ON%20HEROKU-8C4FFF?style=for-the-badge&logo=heroku&logoColor=white" width="400" height="65"/>
   </a>
 </p>
@@ -48,7 +48,7 @@
 </p>
 
 <p align="center">
-  <a href="https://app.koyeb.com/services/deploy?type=git&repository=KAMRAN-SMD/KAMRAN-MD">
+  <a href="https://app.koyeb.com/services/deploy?type=git&repository=sfkazipairbot-xmd/sfkazipairbot-xmd">
     <img src="https://img.shields.io/badge/DEPLOY%20ON%20KOYEB-00D2FF?style=for-the-badge&logo=koyeb&logoColor=white" width="400" height="65"/>
   </a>
 </p>
