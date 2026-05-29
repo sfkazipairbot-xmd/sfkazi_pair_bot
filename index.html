@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sfkazipairbot-xmd</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:sans-serif;
+}
+
+body{
+background:#000;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+padding:20px;
+}
+
+.box{
+width:100%;
+max-width:420px;
+background:#0d0d0d;
+padding:30px;
+border-radius:25px;
+text-align:center;
+box-shadow:0 0 30px #00ffd5;
+border:2px solid #00ffd5;
+}
+
+img{
+width:140px;
+height:140px;
+border-radius:50%;
+border:5px solid #00ffd5;
+object-fit:cover;
+margin-bottom:20px;
+box-shadow:0 0 20px #00ffd5;
+}
+
+h1{
+color:#00ffd5;
+font-size:38px;
+margin-bottom:25px;
+font-weight:bold;
+}
+
+input{
+width:100%;
+padding:18px;
+border:none;
+border-radius:15px;
+font-size:22px;
+margin-bottom:20px;
+outline:none;
+background:#fff;
+}
+
+button{
+width:100%;
+padding:18px;
+border:none;
+border-radius:15px;
+background:#00ffd5;
+font-size:24px;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+background:#00c9aa;
+transform:scale(1.03);
+}
+
+#code{
+margin-top:30px;
+font-size:40px;
+font-weight:bold;
+color:#00ffd5;
+text-shadow:0 0 10px #00ffd5;
+word-break:break-word;
+}
+
+.footer{
+margin-top:20px;
+color:#888;
+font-size:16px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="box">
+
+<img src="https://i.postimg.cc/j2n3tM7R/IMG-20251125-003346-004.jpg">
+
+<h1>sfkazipairbot-xmd</h1>
+
+<input type="number" id="number" placeholder="Enter WhatsApp Number">
+
+<button onclick="generateCode()">
+Generate Pair Code
+</button>
+
+<div id="code"></div>
+
+<div class="footer">
+POWERED BY sfkazipairbot-xmd
+</div>
+
+</div>
+
+<script>
+
+function generateCode(){
+
+let number=document.getElementById("number").value;
+
+if(number==""){
+alert("Enter WhatsApp Number");
+return;
+}
+
+let code=Math.floor(10000000 + Math.random() * 90000000);
+
+document.getElementById("code").innerHTML=
+"PAIR CODE: " + code;
+
+}
+
+</script>
+
+</body>
+</html>
